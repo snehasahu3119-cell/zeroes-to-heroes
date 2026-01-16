@@ -1,0 +1,30 @@
+## 🚀 Day 2: Conditions (Decision Making)
+
+### 🧠 Tasks
+
+1️⃣ **Check if a number is Even or Odd**
+Write a program that takes a number as input and checks whether it is even or odd using conditional statements.
+
+2️⃣ **Check if a person is eligible to vote**
+Write a program that takes a person’s age as input and checks if they are eligible to vote (age ≥ 18).
+
+3️⃣ **Find the largest of two numbers**
+Write a program that compares two numbers and prints the larger one using conditions.
+
+---
+
+### ⭐ Bonus Challenge
+
+🔐 **Simple Login Check**
+Create a basic login system:
+
+* Take a password as input
+* If the password is correct → display a **Success / Login Successful** message
+* Otherwise → display an **Incorrect Password** message
+
+---
+
+💡 *Focus on using if, else, and else-if statements effectively.*
+
+Happy coding! 💻🔥
+#ZeroesToHeroes #Day2 #Conditionals #ProgrammingBasics
