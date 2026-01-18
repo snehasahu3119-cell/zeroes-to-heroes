@@ -1,0 +1,37 @@
+-- Day 4: SQL Basics
+
+-- 1. Create table
+CREATE TABLE users (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  email TEXT,
+  age INTEGER
+);
+
+-- 2. Insert records
+INSERT INTO users (name, email, age) VALUES
+('Sneha', 'sneha@gmail.com', 20),
+('Rohit', 'rohit@yahoo.com', 17),
+('Aman', 'aman@gmail.com', 25);
+
+-- 3. Retrieve all users
+SELECT * FROM users;
+
+-- 4. Users who are 18 or older
+SELECT * FROM users WHERE age >= 18;
+
+-- 5. Update age of one user
+UPDATE users
+SET age = 21
+WHERE name = 'Sneha';
+
+-- 6. Delete one user
+DELETE FROM users
+WHERE name = 'Rohit';
+
+-- ⭐ Bonus
+-- Sort users by age (descending)
+SELECT * FROM users ORDER BY age DESC;
+
+-- Find users with gmail
+SELECT * FROM users WHERE email LIKE '%@gmail.com';
